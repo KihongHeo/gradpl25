@@ -1,0 +1,14 @@
+name = "GradPL"
+version = "0.1.0"
+defaultTargets = ["gradpl"]
+
+[[lean_lib]]
+name = "GradPL"
+
+[[lean_exe]]
+name = "gradpl"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
